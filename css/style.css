@@ -949,8 +949,8 @@ header section
 }
 
 .logo_ufjf {
-  width: 280px;
-  height: 200px;
+  width: 240px;
+  height: auto;
 }
 
 .left_text {
@@ -958,7 +958,7 @@ header section
 }
 
 
-p, ol {
+p, li {
   text-align: justify;
 }
 
