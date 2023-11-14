@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
-  color: #B0B117;
+  color: #D4D411;
   background-color: #4b2f28;
   overflow-x: hidden;
 }
@@ -47,11 +47,11 @@ body {
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
-  color: #B0B117;
+  color: #D4D411;
 }
 
 .heading_container h2 span {
-  color: #B0B117;
+  color: #D4D411;
 }
 
 .heading_container p {
@@ -95,6 +95,12 @@ header section
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.side-navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero_area .hero_bg_box {
@@ -149,16 +155,9 @@ header section
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px;
   color: #ffffff;
   
-}
-
-span.side-navbar{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #ffffff;
 }
 
 .custom_nav-container {
@@ -428,7 +427,7 @@ span.side-navbar{
           align-items: center;
   text-align: center;
   margin-top: 45px;
-  background-color: #f8f8f9;
+  background-color: #1A1160;
   padding: 20px;
   border-radius: 5px;
 }
@@ -522,7 +521,7 @@ span.side-navbar{
   margin-top: 15px;
 }
 
-.about_section .detail-box a {
+/* .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
   background-color: #00bbf0;
@@ -536,7 +535,7 @@ span.side-navbar{
 
 .about_section .detail-box a:hover {
   background-color: #007fa4;
-}
+} */
 
 .why_section .box {
   margin-top: 45px;
@@ -573,7 +572,7 @@ span.side-navbar{
 }
 
 .why_section .box .img-box img {
-  width: 55px;
+  width: 100%;
   height: auto;
   fill: #00204a;
 }
@@ -926,11 +925,10 @@ span.side-navbar{
   background-color: #007fa4;
 }
 
-/* footer section*/
+
 .footer_section {
   position: relative;
   background-color: #000000;
-  text-align: center;
 }
 
 .footer_section p {
@@ -946,10 +944,62 @@ span.side-navbar{
 
 .detail-box h3{
   text-align: center;
-  color: #B0B117;
+  color: #D4D411;
   margin-top: 20px;
 }
 
-.row{
+.logo_ufjf {
+  width: 280px;
+  height: 200px;
+}
+
+.left_text {
+  align-self: start;
+}
+
+
+p, ol {
+  text-align: justify;
+}
+
+.about_section .img-box{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
+
+.img-box p{
+  font-size: 10px;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.def-img {
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 60px auto;
+}
+
+.def-img img {
+  border: 1px solid #D4D411;
+}
+
+.why_section .heading_center, .service_section .heading_center {
+  border-bottom: 1px solid #1B1161;
+}
+
+.referencias div h4 {
+  text-align: center;
+  border: 1px solid #1A1160;
+}
+
+
+#customCarousel1 .detail-box p {
+  text-align: justify;
+}
+
+.trad {
+  color: rgb(151, 150, 150);
+  font-size: 14px;
+}
+

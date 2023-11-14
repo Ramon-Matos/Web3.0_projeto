@@ -30,12 +30,18 @@
     margin: 5px 0;
   }
 
+  .slider_section h1{
+    margin-top: 50px;
+  }
 
 }
 
 @media (max-width: 768px) {
   .about_section .img-box {
     margin-bottom: 45px;
+  }
+  .slider_section h1{
+    margin-top: 50px;
   }
 
 }
