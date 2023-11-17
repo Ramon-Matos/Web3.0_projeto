@@ -989,8 +989,9 @@ p, li {
 }
 
 .referencias div h4 {
-  text-align: center;
-  border: 1px solid #1A1160;
+  text-align: start;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
 
 
@@ -1023,4 +1024,18 @@ p, li {
 
 .client_section .detail-box{
   color: #000000;
+}
+
+.service_section #a{
+  border-bottom: 2px solid #D4D411;
+  color: #D4D411;
+}
+
+.referencias .container p{
+  font-size: 16px;
+  color: white;
+}
+
+.referencias .container .row {
+  margin-bottom: 40px;
 }
