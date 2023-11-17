@@ -1020,3 +1020,7 @@ p, li {
   cursor: pointer;
   border-radius: 50%;
 }
+
+.client_section .detail-box{
+  color: #000000;
+}
