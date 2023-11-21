@@ -1039,3 +1039,8 @@ p, li {
 .referencias .container .row {
   margin-bottom: 40px;
 }
+
+.slider_section .carousel-inner h1{
+  color: #d4d411;
+}
+
